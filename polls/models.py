@@ -5,7 +5,6 @@ from django.contrib import admin
 
 
 class Question(models.Model):
-    # ...
     @admin.display(
         boolean=True,
         ordering="pub_date",
